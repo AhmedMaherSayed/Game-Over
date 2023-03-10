@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Ahmed Maher">
+  <title>Game Over</title>
+  <!-- CSS Linking -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="app-body" id="app-body">
+    <!-- Header -->
+    <header></header>
+    <div class="container">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-content">
+          <div class="logo">
+            <img src="./images/logo-sm.png" alt="Logo">
+            <h1>Game Reviews</h1>
+          </div>
+          <ul class="list" id="links">
+            <li class="active"><a href="#" data-section="mmorpg">Mmorpg</a></li>
+            <li><a href="#" data-section="shooter">Shooter</a></li>
+            <li><a href="#" data-section="sailing">Sailing</a></li>
+            <li><a href="#" data-section="permadeath">Permadeath</a></li>
+            <li><a href="#" data-section="superhero">Superhero</a></li>
+            <li><a href="#" data-section="pixel">Pixel</a></li>
+          </ul>
+          <span class="toggle-btn" id="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
+      </nav>
+      <!-- navbar end -->
+    </div>
+    <!-- Header end -->
+    <!-- Games start -->
+    <div class="games-cards">
+      <div class="container">
+        <div class="cards-content" id="cards-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="game-info" id="game-info"> 
+  </div>
+   <!-- Games end -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
